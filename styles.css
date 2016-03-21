@@ -1,0 +1,69 @@
+.ghx-key, .ghx-inner {
+	font-size: 100%;
+}
+
+.ghx-issue {
+	overflow: hidden;
+    max-height: 120px;
+}
+
+.ghx-issue-subtask {
+    max-height: 80px;
+    background-color: #FFFFA5;
+    border: 1px solid #eee;
+}
+
+.ghx-issue-subtask.ghx-selected {
+    background-color: #e9e9a0;
+}
+
+.ghx-issue-subtask .aui-badge {
+	display: none;
+}
+
+.ghx-issue-subtask .ghx-grabber,
+.ghx-issue-subtask .ghx-type,
+.ghx-issue-subtask .ghx-priority,
+.ghx-issue .ghx-grabber {
+	display: none;
+}
+
+.ghx-issue-subtask .ghx-issue-content {
+	padding-left: 10px;
+}
+
+.ghx-avatar-img {
+    font-size: 36px;
+	line-height: 77px;
+}
+
+.ghx-end {
+    right: 0px !important;
+    bottom: 0px !important;
+}
+
+.aui-badge {
+	font-size: 20px;
+    background: none;
+}
+
+#ghx-operations {
+	display: none;
+}
+
+#ghx-column-header-group {
+	top: 0px !important;
+}
+
+.ghx-avatar-img {
+    position: relative;
+    top: -10px;
+    right: -10px;
+    height: 90px;
+	width: 70px;
+}
+.ghx-issue-subtask .ghx-avatar-img {
+    height: 80px;
+	width: 60px;
+}
+
