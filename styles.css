@@ -77,10 +77,6 @@
     font-size: 75%;
 }
 
-.ghx-swimlane:last-of-type {
-	border-top: 1px solid #999;
-}
-
 .ghx-swimlane:last-of-type .ghx-heading {
 	display: none;
 }
