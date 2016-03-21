@@ -49,7 +49,7 @@
 
 .ghx-column:nth-of-type(1) .ghx-issue {
 	width: 49% !important;
-    clear: right;
+    clear: both;
 }
 
 .ghx-column:nth-of-type(1) .ghx-parent-group {
