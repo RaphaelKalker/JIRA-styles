@@ -27,16 +27,23 @@
 }
 
 .ghx-column:nth-of-type(1) {
-	width: 50%;
+	width: 33%;
+    border-right: 1px solid #999;
 }
 
 .ghx-column:nth-of-type(2) {
-	width: 25%;
+	width: 33%;
 }
 
-.ghx-column:nth-of-type(2) .ghx-issue,
-.ghx-column:nth-of-type(2) .ghx-issue-subtask {
-	width: 100% !important;
+.ghx-column:nth-of-type(3) .ghx-flags,
+.ghx-column:nth-of-type(3) .ghx-type {
+	display: none;
+}
+
+
+.ghx-column:nth-of-type(1) .ghx-issue,
+.ghx-column:nth-of-type(1) .ghx-issue-subtask {
+	width: 49% !important;
 }
 
 .ghx-swimlane:last-of-type {
@@ -63,7 +70,7 @@
 /* Tasks */
 
 .ghx-issue {
-    width: 49%;
+    width: 100%;
     float: left;
 	overflow: hidden;
     max-height: 80px;
@@ -73,7 +80,7 @@
 /* Subtasks */
 
 .ghx-issue-subtask {
-    width: 49%;
+    width: 100%;
     float: left;
     max-height: 50px;
     background-color: #FFFFA5;
@@ -120,7 +127,11 @@
 /* Avatar */
 
 .ghx-columns li .ghx-avatar-img {
-	opacity: 0.5;
+	display: none;
+}
+
+.ghx-column:nth-of-type(2) .ghx-avatar-img {
+	display: block;
 }
 
 .ghx-columns li:nth-of-type(2) .ghx-avatar-img {
