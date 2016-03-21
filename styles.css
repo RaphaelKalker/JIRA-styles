@@ -1,16 +1,52 @@
-.ghx-key, .ghx-inner {
-	font-size: 100%;
+/* Layout */
+
+#ghx-column-headers {
+	padding: 0;
 }
+
+#ghx-column-headers .ghx-column {
+	padding: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#ghx-column-headers .ghx-column .ghx-qty {
+	display: none;
+}
+
+#ghx-operations {
+	display: none;
+}
+
+#ghx-column-header-group {
+	top: 0px !important;
+}
+
+/* Tasks and subtasks */
+
+.ghx-key, .ghx-inner {
+	font-size: 80%;
+}
+
+/* Tasks */
 
 .ghx-issue {
 	overflow: hidden;
-    max-height: 120px;
+    max-height: 85px;
+    box-shadow: 8px 8px 15px -8px rgba(0,0,0,0.41);
 }
 
+/* Subtasks */
+
 .ghx-issue-subtask {
-    max-height: 80px;
+    max-height: 46px;
     background-color: #FFFFA5;
-    border: 1px solid #eee;
+    border: 0px solid #eee;
+    margin: 1px;
+    box-shadow: 8px 8px 15px -8px rgba(0,0,0,0.41);
+}
+
+.ghx-issue-subtask .ghx-issue-content {
+	padding: 0 0 0 5px;
 }
 
 .ghx-issue-subtask.ghx-selected {
@@ -21,21 +57,18 @@
 	display: none;
 }
 
-.ghx-issue-subtask .ghx-grabber,
-.ghx-issue-subtask .ghx-type,
-.ghx-issue-subtask .ghx-priority,
+.ghx-issue-subtask .ghx-grabber, 
+.ghx-issue-subtask .ghx-type, 
+.ghx-issue-subtask .ghx-priority, 
 .ghx-issue .ghx-grabber {
 	display: none;
 }
 
-.ghx-issue-subtask .ghx-issue-content {
-	padding-left: 10px;
+.ghx-columns li:nth-of-type(2) .ghx-issue-subtask .ghx-avatar-img {
+    height: 80px;
+	width: 60px;
 }
 
-.ghx-avatar-img {
-    font-size: 36px;
-	line-height: 77px;
-}
 
 .ghx-end {
     right: 0px !important;
@@ -47,23 +80,31 @@
     background: none;
 }
 
-#ghx-operations {
-	display: none;
+/* Avatar */
+
+.ghx-columns li .ghx-avatar-img {
+	opacity: 0.5;
 }
 
-#ghx-column-header-group {
-	top: 0px !important;
-}
-
-.ghx-avatar-img {
+.ghx-columns li:nth-of-type(2) .ghx-avatar-img {
+	opacity: 1;
     position: relative;
     top: -10px;
     right: -10px;
-    height: 90px;
-	width: 70px;
 }
-.ghx-issue-subtask .ghx-avatar-img {
-    height: 80px;
-	width: 60px;
+
+.ghx-columns li:nth-of-type(2) .ghx-issue .ghx-avatar-img {
+    height: 90px !important;
+	width: 70px !important;
+}
+
+.ghx-columns li:nth-of-type(2) .ghx-issue-subtask  .ghx-avatar-img {
+    height: 46px !important;
+	width: 40px !important;
+}
+
+.ghx-columns li:nth-of-type(2)  .ghx-avatar-img {
+    font-size: 36px;
+	line-height: 77px;
 }
 
