@@ -45,13 +45,6 @@
 	margin-bottom: 5px;
 }
 
-
-.ghx-column:nth-of-type(3) .ghx-flags,
-.ghx-column:nth-of-type(3) .ghx-type {
-	display: none;
-}
-
-
 .ghx-column:nth-of-type(1) .ghx-issue {
 	width: 49% !important;
     clear: both;
