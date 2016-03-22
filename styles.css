@@ -28,6 +28,7 @@
 
 .ghx-parent-group {
 	float: left;
+	width: 100%;
 }
 
 .ghx-column:nth-of-type(1) {
@@ -132,9 +133,9 @@
 	display: none;
 }
 
-.ghx-issue-subtask .ghx-grabber,
-.ghx-issue-subtask .ghx-type,
-.ghx-issue-subtask .ghx-priority,
+.ghx-issue-subtask .ghx-grabber, 
+.ghx-issue-subtask .ghx-type, 
+.ghx-issue-subtask .ghx-priority, 
 .ghx-issue .ghx-grabber {
 	display: none;
 }
