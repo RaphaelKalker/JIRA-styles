@@ -1,6 +1,8 @@
 CSS styles to customize the [JIRA](https://www.atlassian.com/software/jira) scrum board.
 
-These styles can be applied to the page thourgh a Chrome extension like [Stylish](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en), which allows you to addyour own CSS rules to customize websites.
+These styles can be added to the page thourgh a Chrome extension like [Stylish](https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en), which allows you to set your own CSS rules to customize websites.
+
+To apply them click the arrow button ![arrow](arrow.png) to maximize the inner area of the scrum board, apply the CSS styles with Stylish, and make your browser go full screen (⌃⌘F for Chrome in OSX).
 
 - The benefit gained with these customizations is that with them, most of the times all the user stories for the current sprint fit in in our 47" TV screen. Having all the information on sight increases awareness in the team about what is still in 'To Do'.
 - I also styled sub-tasks with a post-it-like yellow, made them smaller and made them stack to the right of their corresponding issues. This adds some clarity.
